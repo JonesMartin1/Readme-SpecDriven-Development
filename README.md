@@ -10,25 +10,43 @@ GitHub Spec-Kit es una herramienta que facilita el desarrollo basado en especifi
 
 ## Requisitos Previos
 
-Antes de comenzar, asegúrate de tener instalado:
+Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
-- **Python 3.11 o superior**
-- **Gestor de paquetes `uv`**
-- **Git configurado en tu sistema**
-- **Un agente de codificación asistido por IA** (como GitHub Copilot, Claude Code o Gemini CLI)
+- **Python 3.11 o superior**: Se recomienda la última versión estable. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
+- **Git**: Asegúrate de tener Git instalado y configurado en tu sistema. Puedes descargarlo desde [git-scm.com](https://git-scm.com/downloads).
+- **PowerShell (recomendado para Windows)**: Para una experiencia óptima en Windows, se recomienda instalar la última versión de PowerShell. [Instalar PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4).
+- **Un entorno de terminal/shell moderno**: Asegúrate de tener un terminal funcional (como Bash, Zsh, o el terminal integrado de tu IDE) para ejecutar los comandos.
+- **Plantillas de Spec-Kit**: Puedes explorar y descargar las plantillas de ejemplo directamente desde el repositorio oficial de GitHub: [Spec-Kit Templates](https://github.com/github/spec-kit/tree/main/templates).
+- **Un agente de codificación asistido por IA**: Es altamente recomendado para aprovechar al máximo el Spec-Kit y acelerar el desarrollo.
+
+### Agentes de IA Soportados
+
+| Agente | Soporte |
+|--------|---------|
+| [Claude Code](https://claude.ai) | ✅ |
+| [GitHub Copilot](https://github.com/features/copilot) | ✅ |
+| [Gemini CLI](https://ai.google.dev/gemini-api/docs) | ✅ |
+| [Cursor](https://cursor.sh) | ✅ |
+| [Qwen Code](https://qwenlm.github.io/) | ✅ |
+| [opencode](https://opencode.com) | ✅ |
+| [Windsurf](https://windsurf.ai) | ✅ |
+| [Kilo Code](https://kilocode.ai) | ✅ |
+| [Auggie CLI](https://auggie.ai) | ✅ |
+| [Roo Code](https://roocode.ai) | ✅ |
+| [Codex CLI](https://openai.com/blog/openai-codex) | ✅ |
 
 ## Instalación
 
 ```bash
-# Instalar uv si no lo tienes
-pip install uv
+# Instalar spec-kit directamente con pip
+pip install spec-kit[cli]
 
-# Clonar el repositorio spec-kit
+# O clonar el repositorio spec-kit para desarrollo
 git clone https://github.com/github/spec-kit.git
 cd spec-kit
 
-# Instalar dependencias
-uv sync
+# Instalar dependencias con pip
+pip install -r requirements.txt
 ```
 
 ## Flujo de Trabajo de 5 Fases
@@ -430,8 +448,14 @@ git push origin feature/nueva-funcionalidad
 
 - [Repositorio oficial de GitHub Spec-Kit](https://github.com/github/spec-kit)
 - [Documentación de Spec-Driven Development](https://en.wikipedia.org/wiki/Specification_by_example)
+- [Plantillas de Spec-Kit](https://github.com/github/spec-kit/tree/main/templates)
+
+### Agentes de IA Recomendados
 - [GitHub Copilot](https://github.com/features/copilot)
 - [Claude Code](https://claude.ai)
+- [Cursor](https://cursor.sh)
+- [Windsurf](https://windsurf.ai)
+- [Gemini CLI](https://ai.google.dev/gemini-api/docs)
 
 ## Contribuciones
 
