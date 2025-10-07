@@ -42,9 +42,19 @@ uv sync
 - Estándares de calidad
 - Políticas de desarrollo
 
-**Ejemplo de uso**:
+**Ejemplos de uso**:
 ```bash
-/constitution "Crear una aplicación de gestión de tareas con principios de simplicidad y usabilidad"
+# Aplicación de gestión de tareas
+/constitution "Crear una aplicación de gestión de tareas con principios de simplicidad, usabilidad y productividad"
+
+# E-commerce
+/constitution "Desarrollar una plataforma de e-commerce enfocada en seguridad, rendimiento y experiencia de usuario"
+
+# Blog personal
+/constitution "Crear un blog personal con enfoque en simplicidad, accesibilidad y velocidad de carga"
+
+# API REST
+/constitution "Construir una API REST robusta con principios de escalabilidad, mantenibilidad y documentación clara"
 ```
 
 ### 2. 📋 Especificación (`/specify`)
@@ -55,9 +65,22 @@ uv sync
 - Rama de Git correspondiente
 - Especificaciones técnicas detalladas
 
-**Ejemplo de uso**:
+**Ejemplos de uso**:
 ```bash
-/specify "Sistema de autenticación de usuarios con login, registro y recuperación de contraseña"
+# Sistema de autenticación
+/specify "Sistema de autenticación de usuarios con login, registro, recuperación de contraseña y autenticación de dos factores"
+
+# Panel de administración
+/specify "Panel de administración para gestionar usuarios, productos, pedidos y estadísticas de ventas"
+
+# Sistema de notificaciones
+/specify "Sistema de notificaciones en tiempo real con email, SMS y notificaciones push"
+
+# API de pagos
+/specify "API de pagos integrada con múltiples procesadores (Stripe, PayPal) y gestión de suscripciones"
+
+# Dashboard de analytics
+/specify "Dashboard de analytics con gráficos interactivos, reportes personalizados y exportación de datos"
 ```
 
 ### 3. 🛠️ Stack Tecnológico (`/plan`)
@@ -69,9 +92,22 @@ uv sync
 - `contracts/` - Contratos de API
 - `research.md` - Investigación de tecnologías
 
-**Ejemplo de uso**:
+**Ejemplos de uso**:
 ```bash
-/plan "Definir stack tecnológico para una aplicación web de gestión de tareas"
+# Aplicación web de gestión de tareas
+/plan "Definir stack tecnológico para una aplicación web de gestión de tareas con autenticación y base de datos"
+
+# E-commerce completo
+/plan "Establecer arquitectura tecnológica para un e-commerce con carrito, pagos y gestión de inventario"
+
+# API de microservicios
+/plan "Diseñar stack tecnológico para una arquitectura de microservicios con autenticación, logging y monitoreo"
+
+# Aplicación móvil
+/plan "Definir tecnologías para una aplicación móvil híbrida con sincronización offline"
+
+# Sistema de analytics
+/plan "Configurar stack para un sistema de analytics con procesamiento de datos en tiempo real"
 ```
 
 **Ejemplo de Stack Tecnológico**:
@@ -121,9 +157,22 @@ Despliegue: Netlify (Frontend) + DigitalOcean (Backend)
 - Estimaciones de tiempo
 - Dependencias entre tareas
 
-**Ejemplo de uso**:
+**Ejemplos de uso**:
 ```bash
-/tasks "Crear las tareas para implementar el sistema de autenticación"
+# Sistema de autenticación
+/tasks "Crear las tareas para implementar el sistema de autenticación con login, registro y 2FA"
+
+# Dashboard de admin
+/tasks "Desglosar en tareas el desarrollo del panel de administración con CRUD completo"
+
+# API REST
+/tasks "Definir tareas para construir la API REST con endpoints, validación y documentación"
+
+# Sistema de pagos
+/tasks "Crear tareas para implementar el sistema de pagos con integración a Stripe y PayPal"
+
+# Aplicación móvil
+/tasks "Desglosar el desarrollo de la aplicación móvil en tareas de UI, lógica y testing"
 ```
 
 ### 5. 🚀 Implementación (`/implement`)
@@ -134,9 +183,25 @@ Despliegue: Netlify (Frontend) + DigitalOcean (Backend)
 - Actualiza el progreso
 - Implementa las funcionalidades especificadas
 
-**Ejemplo de uso**:
+**Ejemplos de uso**:
 ```bash
-/implement "Ejecutar la implementación de las tareas de autenticación"
+# Implementar sistema de autenticación
+/implement "Ejecutar la implementación de las tareas de autenticación con login, registro y 2FA"
+
+# Crear panel de administración
+/implement "Desarrollar el panel de administración con todas las funcionalidades CRUD especificadas"
+
+# Construir API REST
+/implement "Implementar la API REST completa con endpoints, validación y documentación"
+
+# Sistema de pagos
+/implement "Desarrollar el sistema de pagos con integración a múltiples procesadores"
+
+# Aplicación completa
+/implement "Ejecutar la implementación completa de la aplicación siguiendo todas las tareas definidas"
+
+# Feature específica
+/implement "Implementar únicamente la funcionalidad de notificaciones push"
 ```
 
 ## Comandos Principales
@@ -210,19 +275,21 @@ tu-proyecto/
 - Actualiza planes según feedback
 - Ajusta tareas según progreso
 
-## Ejemplo Práctico: Sistema de Blog
+## Ejemplos Prácticos Completos
 
-### Fase 1: Constitución
+### Ejemplo 1: Sistema de Blog
+
+#### Fase 1: Constitución
 ```bash
 /constitution "Crear un sistema de blog personal con énfasis en simplicidad, rendimiento y facilidad de uso"
 ```
 
-### Fase 2: Especificación
+#### Fase 2: Especificación
 ```bash
 /specify "Sistema de gestión de posts con editor markdown, categorías, tags y comentarios"
 ```
 
-### Fase 3: Stack Tecnológico
+#### Fase 3: Stack Tecnológico
 ```bash
 /plan "Definir stack tecnológico para el sistema de blog"
 
@@ -234,14 +301,86 @@ tu-proyecto/
 # Despliegue: Vercel
 ```
 
-### Fase 4: Tareas
+#### Fase 4: Tareas
 ```bash
 /tasks "Desglosar implementación en tareas específicas de desarrollo"
 ```
 
-### Fase 5: Implementación
+#### Fase 5: Implementación
 ```bash
 /implement "Ejecutar la implementación del sistema de blog"
+```
+
+---
+
+### Ejemplo 2: E-commerce Básico
+
+#### Fase 1: Constitución
+```bash
+/constitution "Desarrollar una tienda online con enfoque en seguridad, usabilidad y conversión de ventas"
+```
+
+#### Fase 2: Especificación
+```bash
+/specify "Plataforma de e-commerce con catálogo de productos, carrito de compras, checkout y gestión de pedidos"
+```
+
+#### Fase 3: Stack Tecnológico
+```bash
+/plan "Establecer stack tecnológico para el e-commerce con pagos seguros"
+
+# Stack resultante:
+# Frontend: React + Next.js + TypeScript + Tailwind CSS
+# Backend: Node.js + Express + TypeScript
+# Base de Datos: PostgreSQL + Prisma ORM
+# Pagos: Stripe + PayPal
+# Despliegue: Vercel + Railway
+```
+
+#### Fase 4: Tareas
+```bash
+/tasks "Crear tareas para implementar catálogo, carrito, checkout y sistema de pagos"
+```
+
+#### Fase 5: Implementación
+```bash
+/implement "Desarrollar la tienda online completa con todas las funcionalidades"
+```
+
+---
+
+### Ejemplo 3: API de Microservicios
+
+#### Fase 1: Constitución
+```bash
+/constitution "Construir una arquitectura de microservicios robusta con principios de escalabilidad y mantenibilidad"
+```
+
+#### Fase 2: Especificación
+```bash
+/specify "API de microservicios con autenticación, gestión de usuarios, logging y monitoreo"
+```
+
+#### Fase 3: Stack Tecnológico
+```bash
+/plan "Diseñar stack tecnológico para microservicios con Docker y Kubernetes"
+
+# Stack resultante:
+# Backend: Node.js + Express + TypeScript
+# Base de Datos: PostgreSQL + Redis
+# Contenedores: Docker + Docker Compose
+# Orquestación: Kubernetes
+# Monitoreo: Prometheus + Grafana
+```
+
+#### Fase 4: Tareas
+```bash
+/tasks "Desglosar en tareas el desarrollo de cada microservicio y su infraestructura"
+```
+
+#### Fase 5: Implementación
+```bash
+/implement "Implementar la arquitectura de microservicios completa"
 ```
 
 ## Integración con GitHub
