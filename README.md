@@ -60,18 +60,56 @@ uv sync
 /specify "Sistema de autenticación de usuarios con login, registro y recuperación de contraseña"
 ```
 
-### 3. 📊 Planificación (`/plan`)
-**Objetivo**: Desarrolla una estrategia de implementación técnica
+### 3. 🛠️ Stack Tecnológico (`/plan`)
+**Objetivo**: Define la arquitectura y tecnologías a utilizar en el proyecto
 
 **Resultado**: Crea archivos como:
-- `plan.md` - Plan de implementación
+- `plan.md` - Plan de implementación con stack tecnológico
 - `data-model.md` - Modelo de datos
 - `contracts/` - Contratos de API
-- `research.md` - Investigación técnica
+- `research.md` - Investigación de tecnologías
 
 **Ejemplo de uso**:
 ```bash
-/plan "Implementar el sistema de autenticación especificado"
+/plan "Definir stack tecnológico para una aplicación web de gestión de tareas"
+```
+
+**Ejemplo de Stack Tecnológico**:
+```
+Frontend: React + TypeScript + Tailwind CSS
+Backend: Node.js + Express + TypeScript
+Base de Datos: PostgreSQL + Prisma ORM
+Autenticación: JWT + bcrypt
+Despliegue: Vercel (Frontend) + Railway (Backend)
+```
+
+**Otros Ejemplos de Stacks Comunes**:
+
+**Stack Full-Stack JavaScript**:
+```
+Frontend: Next.js + React + TypeScript
+Backend: Next.js API Routes
+Base de Datos: MongoDB + Mongoose
+Autenticación: NextAuth.js
+Despliegue: Vercel
+```
+
+**Stack Python**:
+```
+Frontend: React + Vite
+Backend: Python + FastAPI
+Base de Datos: PostgreSQL + SQLAlchemy
+Autenticación: JWT + PassLib
+Despliegue: Netlify (Frontend) + Heroku (Backend)
+```
+
+**Stack PHP**:
+```
+Frontend: Vue.js + Vite
+Backend: PHP + Laravel
+Base de Datos: MySQL + Eloquent ORM
+Autenticación: Laravel Sanctum
+Despliegue: Netlify (Frontend) + DigitalOcean (Backend)
 ```
 
 ### 4. ✅ Tareas (`/tasks`)
@@ -107,7 +145,7 @@ uv sync
 |---------|-------------|-------------------|
 | `/constitution` | Establece principios de gobernanza | `memory/constitution.md` |
 | `/specify` | Crea especificaciones detalladas | `specs/NNN-feature/spec.md` |
-| `/plan` | Desarrolla plan técnico | `plan.md`, `data-model.md`, `contracts/` |
+| `/plan` | Define stack tecnológico y arquitectura | `plan.md`, `data-model.md`, `contracts/` |
 | `/tasks` | Desglosa en tareas específicas | `tasks.md` |
 | `/implement` | Ejecuta la implementación | Código y artefactos |
 
@@ -184,9 +222,16 @@ tu-proyecto/
 /specify "Sistema de gestión de posts con editor markdown, categorías, tags y comentarios"
 ```
 
-### Fase 3: Planificación
+### Fase 3: Stack Tecnológico
 ```bash
-/plan "Implementar el sistema de blog con Next.js, base de datos PostgreSQL y autenticación"
+/plan "Definir stack tecnológico para el sistema de blog"
+
+# Stack resultante:
+# Frontend: Next.js + React + TypeScript + Tailwind CSS
+# Backend: Next.js API Routes
+# Base de Datos: PostgreSQL + Prisma ORM
+# Autenticación: NextAuth.js
+# Despliegue: Vercel
 ```
 
 ### Fase 4: Tareas
