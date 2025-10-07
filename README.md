@@ -16,7 +16,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 - **Git**: Asegúrate de tener Git instalado y configurado en tu sistema. Puedes descargarlo desde [git-scm.com](https://git-scm.com/downloads).
 - **PowerShell (recomendado para Windows)**: Para una experiencia óptima en Windows, se recomienda instalar la última versión de PowerShell. [Instalar PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4).
 - **Un entorno de terminal/shell moderno**: Asegúrate de tener un terminal funcional (como Bash, Zsh, o el terminal integrado de tu IDE) para ejecutar los comandos.
-- **Plantillas de Spec-Kit**: Puedes explorar y descargar las plantillas de ejemplo directamente desde el repositorio oficial de GitHub: [Spec-Kit Templates](https://github.com/github/spec-kit/tree/main/templates).
+- **Plantillas de Spec-Kit**: Puedes explorar y descargar las plantillas de ejemplo directamente desde la última versión oficial: [Spec-Kit Templates v0.0.57](https://github.com/github/spec-kit/releases/tag/v0.0.57).
 - **Un agente de codificación asistido por IA**: Es altamente recomendado para aprovechar al máximo el Spec-Kit y acelerar el desarrollo.
 
 ### Agentes de IA Soportados
@@ -34,20 +34,6 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 | [Auggie CLI](https://auggie.ai) | ✅ |
 | [Roo Code](https://roocode.ai) | ✅ |
 | [Codex CLI](https://openai.com/blog/openai-codex) | ✅ |
-
-## Instalación
-
-```bash
-# Instalar spec-kit directamente con pip
-pip install spec-kit[cli]
-
-# O clonar el repositorio spec-kit para desarrollo
-git clone https://github.com/github/spec-kit.git
-cd spec-kit
-
-# Instalar dependencias con pip
-pip install -r requirements.txt
-```
 
 ## Flujo de Trabajo de 5 Fases
 
@@ -448,7 +434,7 @@ git push origin feature/nueva-funcionalidad
 
 - [Repositorio oficial de GitHub Spec-Kit](https://github.com/github/spec-kit)
 - [Documentación de Spec-Driven Development](https://en.wikipedia.org/wiki/Specification_by_example)
-- [Plantillas de Spec-Kit](https://github.com/github/spec-kit/tree/main/templates)
+- [Plantillas de Spec-Kit v0.0.57](https://github.com/github/spec-kit/releases/tag/v0.0.57)
 
 ### Agentes de IA Recomendados
 - [GitHub Copilot](https://github.com/features/copilot)
