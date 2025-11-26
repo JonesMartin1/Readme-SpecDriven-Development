@@ -16,7 +16,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 - **Git**: Asegúrate de tener Git instalado y configurado en tu sistema. Puedes descargarlo desde [git-scm.com](https://git-scm.com/downloads).
 - **PowerShell (recomendado para Windows)**: Para una experiencia óptima en Windows, se recomienda instalar la última versión de PowerShell. [Instalar PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4).
 - **Un entorno de terminal/shell moderno**: Asegúrate de tener un terminal funcional (como Bash, Zsh, o el terminal integrado de tu IDE) para ejecutar los comandos.
-- **Plantillas de Spec-Kit**: Puedes explorar y descargar las plantillas de ejemplo directamente desde la última versión oficial: [Spec-Kit Templates v0.0.57](https://github.com/github/spec-kit/releases/tag/v0.0.57).
+- **Plantillas de Spec-Kit**: Puedes explorar y descargar las plantillas de ejemplo directamente desde la última versión oficial: [Spec-Kit Templates](https://github.com/github/spec-kit/releases).
 - **Un agente de codificación asistido por IA**: Es altamente recomendado para aprovechar al máximo el Spec-Kit y acelerar el desarrollo.
 
 ### Agentes de IA Soportados
