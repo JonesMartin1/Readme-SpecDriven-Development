@@ -11,13 +11,13 @@
 
 ### Principios fundamentales
 
-- **Las especificaciones como lingua franca**: La spec pasa a ser el artefacto principal del proyecto. El código es simplemente cómo se expresa esa spec en un lenguaje y framework particular. Mantener software = evolucionar especificaciones.
+- **Las especificaciones como lenguaje natural**: La spec pasa a ser el artefacto principal del proyecto. El código es simplemente cómo se expresa esa specificación en un lenguaje y framework particular. Mantener software es igual a evolucionar especificaciones.
 - **Especificaciones ejecutables**: Tienen que ser lo suficientemente precisas, completas y sin ambigüedades como para generar sistemas funcionales. La idea es eliminar la brecha entre lo que querés hacer y lo que termina implementado.
 - **Refinamiento continuo**: La validación de consistencia pasa de forma continua a lo largo de todo el proceso, no como un checkpoint aislado.
 
 ## ¿Qué es GitHub Spec-Kit?
 
-[GitHub Spec-Kit](https://github.com/github/spec-kit) es un toolkit open source (licencia MIT) que te facilita laburar con desarrollo basado en especificaciones. Tiene dos componentes principales:
+[GitHub Spec-Kit](https://github.com/github/spec-kit) es un toolkit open source (licencia MIT) que te facilita trabajar con desarrollo basado en especificaciones. Tiene dos componentes principales:
 
 1. **Specify CLI**: Un CLI hecho en Python que te inicializa y estructura proyectos para SDD. Descarga las plantillas oficiales del repo de GitHub para el agente de codificación y plataforma que elijas.
 2. **Plantillas y scripts helper**: Son la base de toda la experiencia SDD. Definen cómo se ve una spec, qué incluye un plan técnico y cómo se desglosa todo en tareas individuales que un agente de IA puede ejecutar.
@@ -138,7 +138,7 @@ El flujo se organiza en fases con checkpoints explícitos. No se avanza hasta qu
 
 **Resultado**: Crea o actualiza `.specify/memory/constitution.md` con los principios fundamentales, reglas de decisión, estándares de calidad y políticas de desarrollo. Usa versionado semántico para los cambios y propaga las enmiendas a las plantillas que dependen de él.
 
-Todos los comandos que vienen después (especialmente `/speckit.plan`) leen este archivo como compuerta antes de seguir adelante.
+Todos los comandos que vienen después (especialmente `/speckit.plan`) leen este archivo como guía antes de seguir adelante.
 
 **Ejemplos de uso**:
 ```bash
